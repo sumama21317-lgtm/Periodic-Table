@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Periodic Table</h1>
+        <p>Hover or focus any element to see its details.</p>
+    </header>
+
+    <!-- Element Information -->
+    <section id="elementDetails" class="element-details">
+        <div id="detailsContent">
+            <div class="detail-symbol">PT</div>
+            <div>
+                <h2>Periodic Table</h2>
+                <p>Select any element to explore its details.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Periodic Table -->
+    <main>
+        <div id="periodicTable" class="periodic-table"></div>
+    </main>
+
+    <!-- Category Filters -->
+    <div id="categoryFilters" class="category-filters">
+        <button data-category="all" class="active">All Elements</button>
+        <button data-category="alkali">Alkali Metals</button>
+        <button data-category="alkaline">Alkaline Earth</button>
+        <button data-category="transition">Transition Metals</button>
+        <button data-category="post-transition">Post-transition</button>
+        <button data-category="metalloid">Metalloids</button>
+        <button data-category="nonmetal">Nonmetals</button>
+        <button data-category="halogen">Halogens</button>
+        <button data-category="noble">Noble Gases</button>
+        <button data-category="lanthanoid">Lanthanoids</button>
+        <button data-category="actinoid">Actinoids</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
